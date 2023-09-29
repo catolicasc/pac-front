@@ -28,8 +28,8 @@ const Card = ({horarios, local, titulo, participantes, dia, diaSemana}) => {
                 </div>
                 <div className={"flex gap-4"}>
                     {
-                        participantes.map(participante => {
-                            return <UserCircleIcon className="h-11"/>
+                        participantes.map((participante, index) => {
+                            return <UserCircleIcon key={index} className="h-11"/>
                         })
                     }
                 </div>

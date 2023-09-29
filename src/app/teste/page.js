@@ -58,15 +58,15 @@ export default function Home() {
     <>
        <div className={"w-fit"}>
          {
-           nossaAgenda.map( agendaCorrente => {
-             return <Card local={agendaCorrente.local} horarios={agendaCorrente.horarios} titulo={agendaCorrente.titulo} participantes={agendaCorrente.participantes} dia={agendaCorrente.dia} diaSemana={agendaCorrente.diaDaSemana} />
+           nossaAgenda.map( (agendaCorrente, index) => {
+             return <Card key={index} local={agendaCorrente.local} horarios={agendaCorrente.horarios} titulo={agendaCorrente.titulo} participantes={agendaCorrente.participantes} dia={agendaCorrente.dia} diaSemana={agendaCorrente.diaDaSemana} />
            })
          }
        </div>
        <div className={"flex flex-col justify-around mt-2.5"}>
          {
-           buttons.map( button => {
-             return <div>
+           buttons.map( (button, index) => {
+             return <div key={index}>
               <Button title={button.title} action={button.action}/>
              </div>
            })

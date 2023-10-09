@@ -2,7 +2,7 @@ import { ClockIcon, MapPinIcon, UserCircleIcon } from "@heroicons/react/24/outli
 
 const Card = ({horarios, local, titulo, participantes, dia, diaSemana}) => {
 
-    return <div className={"flex items-center p-5 border-2 border-r-5 border-solid border-purple-500 h-[150] mb-1 "}>
+    return <div className={"flex items-center p-5 border-2 border-r-5 border-solid border-purple-500 h-[70] mb-1 "}>
         <div>
             <div className={"flex flex-col items-center mx-8"}>
                 <div className={"text-[#A154F2] text-3xl font-bold"}>{diaSemana}</div>

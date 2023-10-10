@@ -1,6 +1,6 @@
 const MOCK_AGENDA =  [{
-    diaDaSemana: "Sat",
-    dia: 28,
+    diaDaSemana: "Setembro",
+    dia: 14,
     horarios: "08:00 - 12:00",
     local: "Católica sc",
     titulo: "Introdução lógica sobre arduino",
@@ -8,8 +8,8 @@ const MOCK_AGENDA =  [{
 
 },
     {
-        diaDaSemana: "Sat",
-        dia: 29,
+        diaDaSemana: "Setembro",
+        dia: 21,
         horarios: "08:00 - 12:00",
         local: "Católica sc",
         titulo: "Motores e Ponte H",
@@ -17,8 +17,8 @@ const MOCK_AGENDA =  [{
 
     },
     {
-        diaDaSemana: "Sat",
-        dia: 29,
+        diaDaSemana: "Setembro",
+        dia: 28,
         horarios: "08:00 - 12:00",
         local: "Católica sc",
         titulo: "Sensores de Refletância",
@@ -26,8 +26,8 @@ const MOCK_AGENDA =  [{
 
     },
     {
-        diaDaSemana: "Sat",
-        dia: 30,
+        diaDaSemana: "Outubro",
+        dia: 4,
         horarios: "08:00 - 12:00",
         local: "Católica sc",
         titulo: "Estratégia para o seguidor de linha",
